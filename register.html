@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Fixed top navbar example · Bootstrap v5.1</title>
+    <title>Register</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
 
@@ -84,58 +84,52 @@
 
 <main role="main" class="container">
   <div class="row">
-      <div class="col-md-9">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card mb-3">
-                    <div class="card-body">
-                        Kategori: <strong>Semua Kategori</strong>
-                        <span class="float-right">
-                            Urutkan Harga: <a href="#" class="badge badge-primary">Termurah</a>|<a href="#" class="badge badge-primary">Termahal</a>
-                        </span>
-                    </div>
+      <div class="col-md-8 mx-auto">
+        <div class="card">
+            <div class="card-header">
+              Register
+            </div>
+            <div class="card-body">
+                    <form action="">
+                        <div class="mb-3">
+                            <div class="form-group">
+                                <label for="">Nama</label>
+                                <input type="text" class="form-control" required autofocus>
+                                <small class="form-text text-danger">Nama harus diisi</small>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="form-group">
+                                <label for="">E-mail</label>
+                                <input type="email" class="form-control" required>
+                                <small class="form-text text-danger">Email harus diisi</small>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-3">
+                            <div class="form-group">
+                                <label for="">Password</label>
+                                <input type="password" class="form-control" required>
+                                <small class="form-text text-danger">Password harus diisi</small>
+                            </div>
+                        </div>
+
+                        <div class="mt-3">
+                            <div class="form-group">
+                                <label for="">Konfirmasi Password</label>
+                                <input type="password" class="form-control" required>
+                                <small class="form-text text-danger">Password harus sama</small>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </div>
+          </div>
       </div>
-
-      <div class="col-md-3">
-         <div class="row">
-             <div class="col-md-12">
-                 <div class="card mb-3">
-                     <div class="card-header">
-                         Pencarian
-                     </div>
-                     <div class="card-body">
-                         <form action="">
-                             <div class="input-group">
-                                 <input type="text" class="form-control">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-primary">Cari</button>
-                                    </div>
-                             </div>
-                         </form>
-                     </div>
-                 </div>
-             </div>
-         </div>
-
-         <div class="row">
-             <div class="col-md-12">
-                 <div class="card mb-3">
-                     <div class="card-header">
-                         Kategori
-                     </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Semua Kategori</li>
-                            <li class="list-group-item">Kategori 1</li>
-                            <li class="list-group-item">Kategori 2</li>
-                        </ul>
-                 </div>
-             </div>
-         </div>
-      </div>
-  </div>
 </main>
 
 
