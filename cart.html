@@ -84,7 +84,59 @@
 
 <main role="main" class="container">
   <div class="row">
-      
+      <div class="col-md-12">
+          <div class="card mb-3">
+              <div class="card-header">
+                  Cart
+              </div>
+                <div class="card-body">
+                  <table class="table">
+                      <thead>
+                          <tr>
+                              <th>Produk</th>
+                              <th class="text-center">Harga</th>
+                              <th class="text-center">Jumlah</th>
+                              <th class="text-center">Subtotal</th>
+                              <th></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>
+                                  <p><img src="https://placehold.co/50x50" alt=""><strong>Produk Title</strong></p>
+                              </td>
+                              <td class="text-center">Rp100.000,-</td>
+                              <td>
+                                  <form action="">
+                                      <div class="input-group">
+                                          <input type="number" class="form-control text-center" value="1">
+                                          <div class="input-group-append">
+                                              <button type="submit" class="btn btn-info text-white"><i class="fas fa-check"></i></button>
+                                          </div>
+                                      </div>
+                                  </form>
+                              </td>
+                              <td class="text-center">Rp100.000,-</td>
+                              <td>
+                                  <form action="">
+                                      <button type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                                  </form>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td colspan="3"><strong>Total :</strong></td>
+                              <td class="text-center"><strong>Rp100.000,-</strong></td>
+                          </tr>
+                      </tbody>
+                    </table>
+                </div>
+                        <div class="card-footer">
+                            <a href="/checkout.html" class="btn btn-success float-end">Pembayaran <i class="fas fa-angle-right"></i></a>
+                            <a href="/index.html" class="btn btn-warning text-white"><i class="fas fa-angle-left"></i> Kembali Belanja</a>
+                        </div>
+              </div>
+          </div>
+      </div>
   </div>
 </main>
 
