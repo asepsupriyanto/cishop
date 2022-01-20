@@ -17,3 +17,9 @@ body {
     min-height: 75rem;
     padding-top: 4.5rem;
 }
+
+.float-end,
+.card-body a {
+    text-decoration: none;
+    pointer-events: none;
+}
