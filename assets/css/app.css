@@ -3,6 +3,7 @@
     text-anchor: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 
@@ -16,10 +17,4 @@
 body {
     min-height: 75rem;
     padding-top: 4.5rem;
-}
-
-.float-end,
-.card-body a {
-    text-decoration: none;
-    pointer-events: none;
 }
