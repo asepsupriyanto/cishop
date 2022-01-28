@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Checkout Sukses</title>
+    <title>Login</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
 
@@ -82,22 +82,79 @@
 
 <main role="main" class="container">
     <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-            <div class="card-header">
-                Checkout Berhasil
+      <div class="col-md-10 mx-auto">
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        Detail Order #02900018217
+                        <div class="float-right">
+                            <span class="badge badge-pill badge-info">Menunggu Pembayaran</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Nama: Asep Supriyanto</p>
+                        <p>Telepon: 096586757</p>
+                        <p>Alamat: Jln Cihaur, Nanjak Mudun Te eren-eren</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Produk</th>
+                                    <th class="text-center">Harga</th>
+                                    <th class="text-center">Jumlah</th>
+                                    <th class="text-center">Subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p><img src="https://placehold.co/50x50" alt=""><strong>Produk Title</strong></p>
+                                    </td>
+                                    <td class="text-center">Rp100.000,-</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">Rp100.000,-</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><strong>Total :</strong></td>
+                                    <td class="text-center"><strong>Rp100.000,-</strong></td>
+                                </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                    <div class="card-footer">
+                        <form action="#">
+                            <div class="input-group">
+                                <select name="" id="" class="form-control">
+                                    <option value="waiting">Menunggu Pembayaran</option>
+                                    <option value="paid">Dibayar</option>
+                                    <option value="delivered">Dikirim</option>
+                                    <option value="cancel">Batal</option>
+                                </select>
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="submit">Simpan</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="card-body">
-                <h5>Nomor Order : 0123456123</h5>
-                <p>Terima kasih, sudah berbelanja.</p>
-                <p>Silakan lakukan pembayaran untuk bisa kami proses selanjutnya dengan cara:</p>
-                <ol>
-                    <li>Lakukan pembayaran ke rekening <strong>BCA 2345676536</strong> a/n PT. CIShop</li>
-                    <li>Sertakan keterangan dengan nomor order : <strong>0123456123</strong></li>
-                    <li>Total pembayaran : <strong>Rp300.000,-</strong></li>
-                </ol>
-                <p>Jika sudah, silakan kirimkan bukti transfer di halaman konfirmasi atau bisa <a href="orders-detail.html">klik disini</a>!</p>
-                <a href="index.html" class="btn btn-primary"><i class="fas fa-angle-left"></i> Kembali</a>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        Bukti Transfer
+                    </div>
+                    <div class="card-body">
+                        <p>Dari Rekening : 00997</p>
+                        <p>Atas Nama : IDStack</p>
+                        <p>Nominal : Rp200.000,-</p>
+                        <p>Catatan : -</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="https://placehold.co/150x200" alt="">
             </div>
         </div>
       </div>
