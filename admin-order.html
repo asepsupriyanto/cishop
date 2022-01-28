@@ -71,7 +71,7 @@
                 <a href="#" class="nav-link dropdown-toggle" id="dropdown-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown-2">
                     <a href="profile.html" class="dropdown-item">Profile</a>
-                    <a href="orders.html" class="dropdown-item">Order</a>
+                    <a href="order.html" class="dropdown-item">Order</a>
                     <a href="#" class="dropdown-item">Logout</a>
                 </div>
             </li>
@@ -85,7 +85,7 @@
       <div class="col-md-10 mx-auto">
         <div class="card">
             <div class="card-header">
-              <span>Produk </span><a href="admin-produk-form.html" class="btn btn-sm btn-secondary">Tambah</a>
+              <span>Order </span>
                 <div class="float-right">
                     <form action="#">
                         <div class="input-group">
@@ -106,40 +106,43 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Produk</th>
-                            <th scope="col">Kategori</th>
-                            <th scope="col">Harga</th>
-                            <th scope="col">Stok</th>
-                            <th scope="col">    </th>
-
+                            <th>Nomor</th>
+                            <th>Tanggal</th>
+                            <th>Total</th>
+                            <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
                             <td>
-                                <p>
-                                    <img src="https://placehold.co/70x70" alt="">
-                                    Laptop Core i9 2022
-                                </p>
+                                <a href="orders-detail.html"> <strong>#0292018217</strong> </a>
                             </td>
+                            <td>2022/01/21</td>
+                            <td>Rp300.000,-</td>
                             <td>
-                                <span class="badge badge-primary"><i class="fas fa-tags"></i> Laptop</span>
+                                <span class="badge badge-pill badge-success">Dikirim</span>
                             </td>
-                            <td>Rp15.000.000,-</td>
-                            <td>Tersedia</td>
+                        </tr>
+
+                        <tr>
                             <td>
-                                <form action="#">
-                                    <a href="">
-                                        <button class="btn btn-sm">
-                                            <i class="fas fa-edit text-info"></i>
-                                        </button>
-                                    </a>
-                                    <button class="btn btn-sm" type="submit" onclick="return confirm('Are you sure?')">
-                                        <i class="fas fa-trash text-danger"></i>
-                                    </button>
-                                </form>
+                                <a href="orders-detail.html"><strong>#0292018217</strong></a>
+                            </td>
+                            <td>2022/01/19</td>
+                            <td>Rp300.000,-</td>
+                            <td>
+                                <span class="badge badge-pill badge-warning">Menunggu Pembayaran</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="orders-detail.html"> <strong>#02900018217</strong> </a>
+                            </td>
+                            <td>2022/01/09</td>
+                            <td>Rp300.000,-</td>
+                            <td>
+                                <span class="badge badge-pill badge-danger">Dibatalkan</span>
                             </td>
                         </tr>
                     </tbody>
